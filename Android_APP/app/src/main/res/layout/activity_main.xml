@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#457B40"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_36189023_3571112409879820_1505117678373684184_n_1_1_"
+        tools:ignore="ImageContrastCheck" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_icons8_refresh_208"
+        android:contentDescription="@string/app_name"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="327dp"
+        android:layout_height="167dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_recangle"
+        android:backgroundTint="#59A352"
+        android:elevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.081">
+
+        <Switch
+            android:id="@+id/Change_Unit"
+            android:layout_width="150dp"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="176dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="112dp"
+            android:lineSpacingExtra="2000sp"
+            android:text="°C/°F"
+            android:textAlignment="viewEnd"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            tools:text="°C/°F" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="77dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/mdi_outside_temperature" />
+
+        <TextView
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/imageView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginBottom="43dp"
+            android:text="-- C"
+            android:textColor="#FFFFFF"
+            android:textSize="62sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="327dp"
+        android:layout_height="167dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_recangle"
+        android:backgroundTint="#59A352"
+        android:elevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.835">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/mdi_weather_heavy_rain" />
+
+        <TextView
+            android:id="@+id/Huminity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="60dp"
+            android:layout_marginBottom="43dp"
+            android:text="-- %"
+            android:textColor="#FFFFFF"
+            android:textSize="62sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="327dp"
+        android:layout_height="167dp"
+        android:layout_centerInParent="true"
+        android:alpha="0.5"
+        android:background="@drawable/rounded_recangle"
+        android:backgroundTint="#59A352"
+        android:elevation="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.459">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="208dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/_305016_2" />
+
+        <TextView
+            android:id="@+id/Pressure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="43dp"
+            android:text="---- Pha"
+            android:textColor="#FFFFFF"
+            android:textSize="45sp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

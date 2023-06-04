@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/_305016_2.xml" value="0.5475" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/_36189023_3571112409879820_1505117678373684184_n_1_1_.xml" value="0.3425" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/ic_icons8_refresh_208.xml" value="0.3425" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3425" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.3425" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/refresh.xml" value="0.3115" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/drawable/rounded_recangle.xml" value="0.5465" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3425" />
+        <entry key="..\:/URIB/Android_APP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.3165" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
